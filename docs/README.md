@@ -1,4 +1,14 @@
 # Kamen-UI
+![](https://img.shields.io/badge/npm-0.1.1-orange)
+
+[文档地址](https://kamenrider41.github.io/KamenUI-docs/)
+
+[仓库地址](https://github.com/KamenRider41/KamenUI)
+
+仓库说明:
+- 看开发过程记录文档
+- 看bug回忆录
+***
 ### 快速开始
 #### 1.安装组件库
 ```bash
@@ -21,11 +31,7 @@ import {Demo} from 'kamen-ui'
 let Vue = createApp(App)
 Vue.use(Demo)
 ```
-***
-[仓库地址](https://github.com/KamenRider41/KamenUI)
-仓库说明:
-- 看开发过程记录文档
-- 看bug回忆录
+
 ## KamenUI目标
 从零完成自己的Vue组件库:blush::blush::blush:
 

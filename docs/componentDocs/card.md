@@ -2,7 +2,7 @@
 卡片组件
 
 ### 示例
-<m-card imgSrc="/test.jpg" summary="间谍过家家" :width="170"/>
+<m-card imgSrc="/KamenUI-docs/test.jpg" summary="间谍过家家" :width="170"/>
 
 ### 代码
 ```html
