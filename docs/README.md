@@ -1,12 +1,5 @@
-<!--
- * @Author: 41
- * @Date: 2022-05-02 20:27:48
- * @LastEditors: 41
- * @LastEditTime: 2022-05-06 10:11:57
- * @Description: 
--->
 # Kamen-UI
-![](https://img.shields.io/badge/npm-0.1.1-orange)
+![](https://img.shields.io/badge/npm-0.1.2-orange)
 
 [文档地址](https://kamenrider41.github.io/KamenUI-docs/)
 
@@ -31,31 +24,14 @@ import KUI from 'kamen-ui'
 let Vue = createApp(App)
 Vue.use(KUI)
 
-// 按需引用
+// 按需引用(有待优化)
 import { createApp } from 'vue'
-import {Card} from 'kamen-ui'
+import 'kamen-ui/dist/css/button.css'
+import KUI from 'kamen-ui'
 let Vue = createApp(App)
-Vue.use(Card)
+Vue.use(KUI.Button)
 ```
-#### 2.1按需引入的配置
-- `npm install babel-plugin-component -D`安装插件
-- 配置`.babelrc`文件
-```js
-{
-  "plugins": [
-    [
-      "component",
-      {
-        "libraryName": "kamen-ui/dist",
-        "styleLibrary": {
-          "name": "css",
-          "base": false
-        },
-      },
-    ],
-  ]
-}
-```
+
 
 ## KamenUI目标
 从零完成自己的Vue组件库:blush::blush::blush:

@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-03 15:12:59
  * @LastEditors: 41
- * @LastEditTime: 2022-05-05 08:39:44
+ * @LastEditTime: 2022-05-10 20:36:09
  * @Description: 
 -->
 <template>
@@ -13,15 +13,16 @@
     <div v-if="summary" class="m-card-summary">
       {{ summary }}
     </div>
-    <!-- <div v-else class="m-card-summary">
-      <slot></slot>
-    </div> -->
-    <!-- <slot name="footer"></slot> -->
+    <div class="footer">
+      <div class="level">{{ level }}</div>
+      <div class="price">{{ price }}</div>
+    </div>
   </div>
 </template>
 
 
 <script>
+import './card.scss'
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
   name: 'm-card',
@@ -41,11 +42,18 @@ export default {
     summary: {   // 卡片的概要
       type: String,
       default: ''
+    },
+    level: {
+      type: String,
+      default: ''
+    },
+    price: {
+      type: String,
+      default: ''
     }
+  },
+  setup () {
+
   }
 }
 </script>
-
-<style lang="scss">
-@import './card.scss'
-</style>

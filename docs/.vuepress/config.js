@@ -2,7 +2,7 @@
  * @Author: 41
  * @Date: 2022-05-05 08:24:23
  * @LastEditors: 41
- * @LastEditTime: 2022-05-05 10:07:58
+ * @LastEditTime: 2022-05-10 20:45:09
  * @Description: 
  */
 // .vuepress/config.js
@@ -21,7 +21,8 @@ module.exports = {
     }],
     sidebar: [
       '/',
-      '/componentDocs/card'
+      '/componentDocs/card',
+      '/componentDocs/button'
     ]
   }
 }
