@@ -3,8 +3,8 @@
 
 ### 示例
 <div style="display:flex;margin:25px;">
-  <m-card  imgSrc="/test2.jpg" summary="国王排名" :width="170" level="烂尾番" price="100人追番" />
-  <m-card  imgSrc="/test.jpg" summary="间谍过家家！" :width="170" level="好康番" price="1万+正在观看"/>
+  <m-card  imgSrc="/KamenUI-docs/test2.jpg" summary="国王排名" :width="170" level="烂尾番" price="100人追番" />
+  <m-card  imgSrc="/KamenUI-docs/test.jpg" summary="间谍过家家！" :width="170" level="好康番" price="1万+正在观看"/>
 </div>
 
 
